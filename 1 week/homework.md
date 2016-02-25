@@ -1,5 +1,6 @@
 1.range函数中，当start比stop小的时候会发生什么情况？
   range函数中，当step为负数时，会产生什么情况？
+
     1. range(m,n)
         M > N, 返回空。
         M < N, 返回[M,N),step = 1，升序列表
@@ -12,6 +13,7 @@
 2. 在程序中给定一个int常量，你有三次机会猜数字的大小，如果猜中，输出congratulations! you win!，如果机会用完，还未猜中，输出Oops! you fail!
     可以使用input函数获取输入
     可以使用int函数把输入转化为整型
+
     #!/usr/bin/env python3
     #-*- coding:utf-8 -*-
 
