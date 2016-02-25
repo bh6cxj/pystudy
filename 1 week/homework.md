@@ -15,7 +15,7 @@
     可以使用int函数把输入转化为整型
 
     #!/usr/bin/env python3
-    #-*- coding:utf-8 -*-
+    # -*- coding:utf-8 -*-
 
     import random
 
