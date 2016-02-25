@@ -14,14 +14,15 @@
     可以使用input函数获取输入
     可以使用int函数把输入转化为整型
 
-    #!/usr/bin/env python3
-    # -*- coding:utf-8 -*-
+     #!/usr/bin/env python3
+     # -*- coding:utf-8 -*-
+    
     import random
     while True:
+        answer = random.randint(0,7)
         for i in range(3,0,-1):
             guest = input("请猜0~7的整数,你还有" + str(i) + "次机会哦！ ：")
             if str(guest).isdigit() and int(guest) <= 7 and int(guest) >= 0:
-                answer = random.randint(0,7)
                 if int(guest) == answer:
                     print("Congratulations! you win!")
                     break

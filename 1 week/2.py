@@ -4,10 +4,10 @@
 import random
 
 while True:
+    answer = random.randint(0,7)
     for i in range(3,0,-1):
         guest = input("请猜0~7的整数,你还有" + "\033[031m" + str(i) + "\033[0m" + "次机会哦！ ：")
         if str(guest).isdigit() and int(guest) <= 7 and int(guest) >= 0:
-            answer = random.randint(0,7)
             if int(guest) == answer:
                 print("\033[032mCongratulations! you win!\033[0m")
                 break
