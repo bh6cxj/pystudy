@@ -18,7 +18,6 @@
     # -*- coding:utf-8 -*-
 
     import random
-
     while True:
         for i in range(3,0,-1):
             guest = input("请猜0~7的整数,你还有" + str(i) + "次机会哦！ ：")
