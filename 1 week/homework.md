@@ -14,7 +14,7 @@
     可以使用input函数获取输入
     可以使用int函数把输入转化为整型
 
-    #!/usr/bin/env python3
+
     # -*- coding:utf-8 -*-
     import random
     while True:
