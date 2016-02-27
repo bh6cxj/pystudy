@@ -39,6 +39,7 @@
 例如：[1,3,2,4,3,4,2,5,5,7]
 输出：[1, 3, 2, 4, 5, 7]
 
+``` python
     #!/usr/bin/env python3
 
     ls1 = [1,3,2,4,3,4,2,5,5,7]
@@ -49,10 +50,11 @@
             ls2.append(i)
 
     print(ls2)
-
+```
 4.给定一个列表，其中元素为正整数，计算其中素数个数？
 例如：[2,3,4,5,6,7] 输出 4
 
+``` python
     #!/usr/bin/env python3
 
     sum = 0
@@ -76,3 +78,4 @@
             sum +=1
 
     print("Prime number sum is %d" % sum)
+```
